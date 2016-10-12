@@ -10,6 +10,22 @@ public class CircleOneLeftObject {
 			cir.tempOutKid = cir.tempOutKid.right.right.right;								
 		}
 		
+		/* from line 4 to line 11, we used another class CircleNew extended from Circle, there is a workaround to neglect 
+		the CircleNew, shown as follows:
+		
+		Kid ko = cir.first;
+		int countK = 1;
+		while (cir.count > 1) {	
+		
+			if (countK++ == 3){
+				countK = 1;
+				cir.deleteKid(ko);	
+			}
+			ko = ko.right;
+		}
+		
+		*/
+		
 		System.out.println ("\nThe Kid in place (from 0) " + cir.first.id + " was left.\n");
 		
 	}
