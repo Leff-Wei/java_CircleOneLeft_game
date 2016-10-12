@@ -32,4 +32,4 @@ This file "CircleOneLeftChainedList.java" use a array - chained list (table) to 
 
 - command(s): 
    1. javac CircleOneLeftChainedList.java
-   2. java CircleOneLeftObject 4
+   2. java CircleOneLeftChainedList 4
